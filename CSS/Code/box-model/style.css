@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+
+.mydiv{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    border: 5px solid red;
+    border-radius: 50%;
+    border-bottom: 5px solid green;
+    padding: 20px 50px 50px 50px;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    border: 5px solid red;
+    border-radius: 50%;
+    border-bottom: 5px solid green;
+}

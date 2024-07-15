@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <form action="main.java" method="get">
+
+        <input type="text" id="fname" 
+        placeholder="first name" name="fname">
+        
+        <input type="text" id="lname"
+        placeholder="last name" name="lname"><br><br>
+
+        <input type="email" id="email"
+        placeholder="Enter Email id" name="email"><br><br>
+
+        <input type="number" id="age"
+        placeholder="Enter age" name="age"><br><br>
+
+        <input type="radio" name="gender" id="female">
+        <label for="female">female</label>
+
+        <input type="radio" name="gender" id="male">
+        <label for="male">male</label><br><br>
+
+        <input type="checkbox" name="lang"
+        id="eng"><label for="English">English
+        </label>
+
+        <input type="checkbox" name="lang"
+        id="hi"><label for="HIndi">HIndi
+        </label>
+    
+        <input type="checkbox" name="lang"
+        id="tamil"><label for="Tamil">Tamil
+        </label>
+
+        <input type="checkbox" name="lang"
+        id="tel"><label for="Telugu">Telugu
+        </label><br><br>
+
+        <input type="hidden" name="jobname" 
+        value="developer">
+
+
+        <!-- Drop-down------------------>
+
+        <label>Select State</label>
+
+        <option value="AP">AP</option>
+        <option value="">Hyd</option>
+
+
+        <!------Multi-Selection---------->
+
+
+        <label>Prefered Location</label>
+        <select multiple size="5">
+            <optgroup label="Telangana">
+                <option value="HYD">HYD</option>
+            </optgroup>
+            
+            <optgroup label="kerala">
+                <option value="Kochin">Kochin</option>
+            </optgroup>
+            
+            <optgroup label="Andhra Pradesh">
+                <option value="Vij">Vij</option>
+            </optgroup>
+            
+            <optgroup label="Goa">
+                <option value="Goa">Goa</option>
+            </optgroup>
+
+            <optgroup label="UP">
+                <option value="Noida">Noida</option>
+            </optgroup>
+
+            <optgroup label="Maharastra">
+                <option value="Pune">Pune</option>
+            </optgroup>
+        </select><br><br>
+
+
+        <button type="Submit">Submit</button>
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>

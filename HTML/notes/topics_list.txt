@@ -1,0 +1,25 @@
+List of topics covered:
+
+1.Internet fundamentals
+2.dev tools, vscode
+3.Hashnode,dev.to
+---------------------------------
+3.HTML
+    -> History
+    -> structure
+    -> headings,p,a
+    -> formatting tags,
+    -> elements(block vs inline)
+    -> lists
+    -> images
+    -> tables
+    -> sematic elements 
+    -> form inputs
+    -> form validation
+    -> Media
+    -> html5 -- need to discuss in js
+    -> miscellenous
+
+
+    projects
+    
