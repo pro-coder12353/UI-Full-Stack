@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+  }
+  
+  th, td {
+    border: 1px solid #dddddd; 
+    padding: 8px; 
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
