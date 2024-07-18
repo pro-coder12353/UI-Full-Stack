@@ -1,0 +1,193 @@
+/* Advanced selectors */
+
+div>p /* Immediate Children selector */
+{
+    background-color: yellowgreen;
+}
+
+div p /* descendant children selector */
+{
+    background-color: blue;
+}
+
+div+p /*sibling selector */
+{
+    background-color: aqua;
+}
+
+input[type="text"] /* attribute selector */
+{
+    height: 30px;
+    width: 200px;
+}
+
+
+
+/* Pseudo Classes:
+    selects the elements based on their state */
+    /* They are followed by :: */
+
+input::placeholder
+{
+    font-size: 20px;
+    color: black;
+}
+
+div>p::first-letter
+{
+    font-size: 48px;
+}
+
+div p::first-line
+{
+    color: aliceblue;
+}
+
+div p::before
+{
+    content:open-quote;
+}
+
+div p::after
+{
+    content: close-quote;
+}
+
+
+
+
+/* Pseudo elements are similiar to pseudo classes,
+they use */
+
+input:required
+{
+    border: 1px solid red;
+}
+
+input:optional
+{
+    border: 2px solid green;
+}
+
+input:disabled
+{
+    background-color: grey;
+}
+
+input:enabled
+{
+    background-color: yellow;
+}
+
+input:read-only
+{
+    font-size: 150px;
+}
+
+input:read-write
+{
+    font-size: 100px;
+}
+
+input:focus
+{
+    border: 50px solid orange;
+}
+
+a{
+    font-size: 18px;
+}
+
+a:link
+{
+    color: green;
+}
+
+a:active
+{
+    color: yellow;
+}
+
+a:visited
+{
+    color: grey;
+}
+
+a:hover
+{
+    font-size: 100px;
+    text-decoration: line-through;
+
+}
+
+.box
+{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+a:hover
+{
+    font-size: 36px;
+    text-decoration: line-through;
+}
+
+.box:hover
+{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+/* Parent Child */
+
+.child
+{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    color: white;
+}
+
+.parent>.child
+{
+    background-color: black;
+}
+
+.parent>.child:nth-child(1)
+{
+    background-color: turquoise;
+}
+
+.parent>.child:last-child
+{
+    background-color: blue;
+}
+
+.parent>.child:nth-child(odd) 
+{
+    background-color: chartreuse;
+}
+
+.parent>.child:last-child(2)
+{
+    background-color: crimson;
+}
+
+.parent>.div:nth-child(3)
+{
+    background-color: blueviolet;
+}
+
+.parent>.div:nth-of-type(3)
+{
+    background-color: cadetblue;
+}
+
+.parent:not(4)
+{
+    background-color: teal;
+}
