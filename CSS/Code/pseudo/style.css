@@ -1,193 +1,134 @@
-/* Advanced selectors */
-
-div>p /* Immediate Children selector */
+/* advanced seletors
+div>p /* childern selector
 {
-    background-color: yellowgreen;
+    background-color: red;
 }
-
-div p /* descendant children selector */
+div p /* descendant selector 
 {
-    background-color: blue;
+   background-color: red;
 }
-
-div+p /*sibling selector */
+div+p /* sibiling selector 
 {
-    background-color: aqua;
+    background-color: greenyellow;
 }
-
-input[type="text"] /* attribute selector */
+input[type="text"] /* attribute selector 
 {
     height: 30px;
     width: 200px;
 }
 
-
-
-/* Pseudo Classes:
-    selects the elements based on their state */
-    /* They are followed by :: */
+/* pseudo classes */
+/* pseudo classes selects the elements based on their state */
+/* they are followed by :: 
 
 input::placeholder
 {
-    font-size: 20px;
+    font-size: 18px;
     color: black;
 }
-
-div>p::first-letter
+div p::first-letter
 {
-    font-size: 48px;
+    font-size: 68px;
 }
-
-div p::first-line
-{
-    color: aliceblue;
+div p::first-line{
+    color: white;
 }
-
-div p::before
-{
+div p::before{
     content:open-quote;
 }
-
-div p::after
-{
+div p::after{
     content: close-quote;
 }
 
-
-
-
-/* Pseudo elements are similiar to pseudo classes,
-they use */
-
+/* pseudo elements are similar to pseudo classes , they use : 
 input:required
 {
     border: 1px solid red;
 }
-
 input:optional
 {
     border: 2px solid green;
 }
-
 input:disabled
 {
-    background-color: grey;
+background-color: grey;
 }
-
-input:enabled
-{
+input:enabled{
     background-color: yellow;
 }
-
 input:read-only
 {
-    font-size: 150px;
+    height: 100px;
 }
-
-input:read-write
-{
-    font-size: 100px;
+input:read-write{
+    width: 300px;
 }
-
-input:focus
-{
-    border: 50px solid orange;
+input:focus{
+    border: 3px solid orange;
 }
-
 a{
     font-size: 18px;
 }
-
-a:link
-{
+a:link{
     color: green;
 }
-
 a:active
 {
     color: yellow;
 }
-
 a:visited
 {
-    color: grey;
+    color: black;
 }
-
-a:hover
-{
-    font-size: 100px;
-    text-decoration: line-through;
-
-}
-
-.box
-{
+.box{
     background-color: red;
     height: 100px;
     width: 100px;
 }
-
-a:hover
-{
+a:hover{
     font-size: 36px;
-    text-decoration: line-through;
+    text-decoration: none;
 }
-
-.box:hover
-{
+.box:hover{
     height: 200px;
     width: 200px;
     background-color: black;
     border-radius: 50%;
 }
-
-
-/* Parent Child */
-
-.child
-{
+/* parent child */
+.child{
     height: 50px;
     width: 50px;
-    background-color: aquamarine;
-    color: white;
+    background-color: antiquewhite;
+    color: blue;
 }
-
-.parent>.child
+.parent>div:nth-child(3){
+    background-color: black;
+}
+.parent>div:nth-last-of-type(1)
 {
     background-color: black;
 }
-
-.parent>.child:nth-child(1)
-{
-    background-color: turquoise;
+.parent>.child:not(p){
+    width: 200px;
 }
 
-.parent>.child:last-child
-{
-    background-color: blue;
-}
 
-.parent>.child:nth-child(odd) 
-{
-    background-color: chartreuse;
-}
 
-.parent>.child:last-child(2)
-{
-    background-color: crimson;
-}
 
-.parent>.div:nth-child(3)
-{
-    background-color: blueviolet;
-}
 
-.parent>.div:nth-of-type(3)
-{
-    background-color: cadetblue;
-}
 
-.parent:not(4)
-{
-    background-color: teal;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
