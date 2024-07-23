@@ -14,9 +14,13 @@ font-size: 13px;
 h2{
     color: white;
 }
+
+.diff{
+    color:hsl(217, 19%, 35%)
+}
 .main{
     height: 50vh;
-    width: 70vw;
+    width: 80vw;
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(4,1fr);
@@ -49,6 +53,7 @@ h2{
 }
 .box2{
     grid-column:3/4;
+    background-color: hsl(217, 19%, 35%);
 }
 .box3{
     grid-row:2/3
@@ -56,6 +61,8 @@ h2{
 .box4{
     grid-row: 2/3;
     grid-column:2/4;
+    background-color:hsl(219, 29%, 14%);
+
 }
 .box5{
     grid-row:1/3;
