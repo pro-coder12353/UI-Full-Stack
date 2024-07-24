@@ -117,6 +117,8 @@ section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 15px;
+    perspective: 1000px;
+    perspective-origin: center ;
 }
 .project{
     display: flex;
@@ -125,6 +127,11 @@ section{
     border: 1px solid black;
     border-radius: 15px;
     padding: 30px;
+}
+
+.project:hover{
+    transform: rotateX('30deg') rotateY('45deg') rotateZ('15deg');
+    transform-style: preserve-3d;
 }
 .project img{
     height: 150px;
