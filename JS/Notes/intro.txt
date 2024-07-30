@@ -1,0 +1,14 @@
+->What is JS?
+    Javascript is a JIT(Just in Time) complier programming language used for the web.It is used for almost all of the internet and 
+    it is used mainly for functionality of websites.
+
+->  Eric Moch developed JS and initially named as LiveScript.Because of popular language java,livescript changed as javascript.It started
+from 1995 and maintained by EcmaScript.
+
+-> JS runs on Browsers and every browser has JS engine like Google- v8, Firefox-spidermonkey, Edge-Chakra.
+
+->How do we link JS to our HTML?
+    There are 2 ways
+        1.Internal: We can use script tag to inclue JS anywhere in HTML,it's called as internal Javascript.
+
+        2.
