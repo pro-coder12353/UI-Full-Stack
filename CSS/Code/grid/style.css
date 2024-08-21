@@ -7,33 +7,25 @@
     grid-template-columns: repeat(3,auto);
     border: 5px solid rgb(0, 0, 0);
     width: 600px;
-    align-content: center;
-    place-content: center;
+    align-content: start;
 
     
 }
-
-
 .box{
     
     background-color: red;
     border: 1px solid white;
     font-size: 24px;
     color: white;
-
 }
 .box1{
    grid-column-start: 1;
-   grid-column-end: 5;
+   grid-column-end: 4;
 }
-.box2{
-    grid-row: 2/5;
-}
-
 .box3
 {
-    grid-area: 2/2/4/5;
+    grid-area: 2/2/4/4;
 }
-.box6{
-    grid-column:2/5;
+.box9{
+    grid-column:2/4;
 }

@@ -1,22 +1,22 @@
 body{
     background-color: antiquewhite;
 }
-
-.mydiv{
-    height: 100px;
-    width: 200px;
-    background-color: aqua;
-    border: 5px solid red;
-    border-radius: 50%;
-    border-bottom: 5px solid green;
-    padding: 20px 50px 50px 50px;
+*{
+    box-sizing: border-box;
 }
-
-.box{
+.myDiv{
     height: 100px;
     width: 200px;
-    background-color: aqua;
+    background-color: aliceblue;
     border: 5px solid red;
     border-radius: 50%;
-    border-bottom: 5px solid green;
+    padding:50px 20px 10px 30px;
+    margin: 20px;
+}
+.box{
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
 }

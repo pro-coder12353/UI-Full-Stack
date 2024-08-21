@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    padding: 50px;
+    margin: auto;
+}
+
+#main
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto) ;
+    gap = 20px
+}
+
+.product
+{
+    box-shadow: 5px 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content:
+}
+
+.product img
+{
+
+}

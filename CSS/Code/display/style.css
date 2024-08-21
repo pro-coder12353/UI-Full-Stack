@@ -1,11 +1,9 @@
 *{
     box-sizing: border-box;
 }
-
 .container{
-    border: 1px solid red;
+    border: 2px solid red;
 }
-
 .box{
     height: 100px;
     width: 100px;
@@ -14,13 +12,6 @@
     margin: 10px;
     display: table;
 }
-
 .box3{
-   /* display: none; */
-  /*  visibility: hidden; */
-
+  
 }
-
-
-
-
