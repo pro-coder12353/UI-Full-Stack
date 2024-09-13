@@ -1,0 +1,4 @@
+console.log(window.location)
+
+window.navigator.geolocation.getCurrentPosition((pos))
+console

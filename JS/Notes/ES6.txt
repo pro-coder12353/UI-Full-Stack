@@ -1,0 +1,113 @@
+Ecmascript: ecmascript maintains the version for scripting languages
+ES13 is the latest version and important version is ES6
+ES6 released in 2015, also known as ES2015 released so many features for JS. some of them are
+i. arrow functions
+ii. let and const
+iii. template literals
+iv. OOPS(objects,classes)
+v. rest and spread
+vi. destructuring
+vii. modules etc..,
+
+i. arrow functions:
+function display (a)
+{
+    console.log("hello world"+a)
+}
+const display2 = (a) =>
+{
+    console.log("hello world"+a)
+}
+
+ii. template literals:
+this is a way to combine data with strings without breaking the strings
+
+let a = 50, b = 55;
+console.log("the sum of " + a + " and " + b + "  is " + (a + b))
+console.log(`the sum of ${a} and ${b} is ${a + b}`)
+
+iii. let and const:
+console.log(k) // undefined
+var k = 25;
+let c = 44;
+c = 45; // let cannot redeclare but can reassign
+const d = 85 // const cannot reassign
+// let and const can't be used before initialization
+
+let and const are block scoped variables and var is a function scoped variables
+
+iv. OOP(object oriented programming):
+Every physical entity with certain properties is object and the collection of object is class
+
+let emp1 = {
+    name:"raj",
+    age:55,
+    salary:20000
+}
+ for Eg: Banana is an object,Mango is an object
+ Fruit is a class - color,taste,shape
+class Fruit
+{
+    name; color; taste;
+    constructor(n,c,t)
+    {
+        this.name = n;
+        this.color = c;
+        this.taste = t;
+    }
+}
+class ABC extends Fruit
+{
+    speed;
+    constructor(n, c, t, s)
+    {
+        super(n, c, t);
+        this.speed = s;
+    }
+
+}
+One class can get properties from another class called as inheritance
+
+v. rest and spread:
+In JS, rest operator is denoted by three dots (...)
+spread operator is denoted by three dots (...)
+Rest operator is used to take the rest of elements
+ as an array
+
+ function sum (a,...b) // rest operator
+{
+    console.log(a, b);
+    let newArr = [5, 2, ...b, 5]; // spread operatot
+    console.log(newArr) // [5,2,2,3,4,5]
+}
+sum(1,2,3,4)
+
+vi. destructuring: you can destructure an array or an object
+//destructuring
+let arr = ["raj","prasad"];
+const [p,q]= arr
+console.log(arr[1], p)
+let obj2 = {
+    name: "vani",
+    age:27
+}
+const {name,age}= obj2
+console.log(name, age);
+
+let emp = {
+    name: "prasad",
+    salry: 80000,
+    age:43
+}
+const {salry} = emp
+console.log(emp.salry, salry)
+
+vii. modules: module systems are used to export and import data/methods from one js file to another js file.
+There are different ways like require js , common js
+but es6 brings a new module system called ES6 module system
+
+
+
+
+
+
